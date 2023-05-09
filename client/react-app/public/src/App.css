@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input[type="file"] {
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  
+  margin-top:20px;
+
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+div {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #0077cc;
+}
